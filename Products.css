@@ -1,0 +1,131 @@
+
+
+
+
+*{
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header{
+    background-color: #181952;
+    display: flex;
+    text-decoration: none;
+}
+
+
+ul {
+
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #181952;
+    text-decoration: none;
+  }
+  
+  li {
+    float: left;
+    background-color: #181952;
+    text-decoration: none;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(252, 252, 252);
+    text-align: end;
+    padding: 30px 15px;
+    text-decoration: none;
+    margin-left: 100px;
+    font-size: 25px;
+    align-items: flex-end;
+
+    
+  }
+  
+  li a:hover {
+    background-color: #c81a51;
+    border-radius: 9px;
+    transition: 0.7s;
+
+  }
+
+  main{
+    padding-left: 20px;
+    width: 100%;
+    min-height:80vh;
+    display: flex;
+    align-items: center;
+    background: url(https://store.fcbarcelona.com/cdn/shop/collections/VO230918A097482.jpg?v=1721284691&width=1920 ) no-repeat;
+    
+}
+
+
+main h1{
+  margin: 23px;
+  padding-top: 230px;
+  font-size: 100px;
+  color: rgb(255, 255, 255);
+  padding-left: 80px;
+   }
+
+
+
+.cards{
+  padding-top: 23px;
+  margin-top: -50PX;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;                                        
+  }
+  
+  .card {
+    max-width: 200px;
+    margin: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 2em;
+    
+  
+  }
+  
+  .price {
+    color: rgb(153, 145, 145);
+    font-size: 22px;
+  }
+  
+  .card button {
+    outline: 1PX;
+    padding: 2px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 90%;
+    font-size: 18px;
+    transition: calc(0.7s);
+    border-radius: 1EM;
+    
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+
+  .name{
+    padding: 40PX;
+    text-align: center;
+  }
+
+  .card img {
+    border-radius: 1em;
+    transition: calc(1s);
+  }
+
+  .card img:hover {
+    transform: translate(2em);
+  }
